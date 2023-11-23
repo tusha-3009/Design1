@@ -1,0 +1,74 @@
+.right {
+    color: black;
+    border-radius: 20px;
+    display: inherit;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.summary{
+    margin: 20px;
+    text-align: start;
+    
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.abc div {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 10px;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    
+    /* text-align: center; */
+}
+span{
+    float:right;
+}
+.reaction{
+    background-color: rgba(248, 151, 132,0.1);
+}
+.reaction p{
+    
+    color:rgba(255, 64, 0, 0.919);
+}
+.memory {
+    background-color: rgba(231, 251, 130,0.4);
+}
+
+.memory p {
+    color: rgb(192, 184, 44);
+}
+.visual {
+    background-color: rgba(229, 237, 247,0.4);
+}
+
+.visual p {
+    color: blue;
+}
+.verbal {
+    background-color: rgba(214, 240, 161, 0.4);
+}
+
+.verbal p {
+    color: green;
+}
+button {
+    margin: 20PX;
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 20px;
+    background-color: rgb(30, 30, 90);
+    color: white;
+    border-radius: 25px;
+}
